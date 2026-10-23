@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RepaRizz</string>
+    <string name="app_subtitle">Giving broken gadgets their rizz back.</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_repair_jobs">Repair Jobs</string>
+    <string name="nav_new_job">New Job</string>
+    <string name="nav_analytics">Analytics</string>
+
+    <!-- Dashboard -->
+    <string name="btn_quick_add_job">+ New Repair Job</string>
+    <string name="btn_view_all_jobs">View All Jobs</string>
+    <string name="metric_total_jobs">Total Jobs</string>
+    <string name="metric_awaiting_diagnosis">Awaiting Diagnosis</string>
+    <string name="metric_awaiting_approval">Awaiting Approval</string>
+    <string name="metric_in_repair">Currently Repairing</string>
+    <string name="metric_failed_testing">Failed Testing</string>
+    <string name="metric_completed_repairs">Completed Repairs</string>
+    <string name="metric_awaiting_collection">Awaiting Collection</string>
+    <string name="metric_overdue_jobs">⚠️ Overdue Active Jobs</string>
+    <string name="recent_audit_trail_title">Recent Status Change Audit Trail</string>
+    <string name="empty_activity_msg">No repair activities recorded yet.</string>
+
+    <!-- New Repair Job -->
+    <string name="title_new_repair_job">New Repair Job</string>
+    <string name="subtitle_new_repair_job">Register device intake, condition &amp; target completion</string>
+    <string name="header_customer_info">1. Customer Information</string>
+    <string name="hint_customer_name">Customer Name *</string>
+    <string name="hint_contact_number">Contact Number *</string>
+    <string name="header_device_specs">2. Device Specifications &amp; Condition</string>
+    <string name="hint_device_type">Device Type *</string>
+    <string name="hint_device_brand">Brand *</string>
+    <string name="hint_device_model">Device Model / Series *</string>
+    <string name="hint_reported_issue">Reported Problem / Issue *</string>
+    <string name="hint_device_condition">Physical Condition (Scratches, Cracks) *</string>
+    <string name="hint_accessories_received">Accessories Received (Charger, Case, SIM)</string>
+    <string name="header_completion_target">3. Expected Completion Target</string>
+    <string name="hint_completion_deadline">Expected Completion Date &amp; Time *</string>
+    <string name="header_before_photo">4. Before-Repair Condition Photo (Optional)</string>
+    <string name="btn_select_photo">📷 Select Photo</string>
+    <string name="btn_remove_photo">Remove</string>
+    <string name="btn_save_register_job">Save &amp; Register Repair Job</string>
+
+    <!-- Repair Jobs List -->
+    <string name="title_repair_jobs">Repair Jobs</string>
+    <string name="subtitle_repair_jobs">Search and filter all registered repair records</string>
+    <string name="hint_search_jobs">Search by Name, Model, or Job ID&#8230;</string>
+    <string name="chip_all">All</string>
+    <string name="chip_received">Received</string>
+    <string name="chip_diagnosing">Diagnosing</string>
+    <string name="chip_awaiting_approval">Awaiting Approval</string>
+    <string name="chip_repairing">Repairing</string>
+    <string name="chip_testing">Testing</string>
+    <string name="chip_completed">Completed</string>
+    <string name="chip_rejected">Rejected</string>
+    <string name="empty_jobs_msg">No repair jobs found matching criteria.</string>
+
+    <!-- Repair Detail -->
+    <string name="header_job_details">Job Record Details</string>
+    <string name="badge_overdue">⚠️ OVERDUE</string>
+    <string name="header_customer_device_overview">1. Customer &amp; Device Overview</string>
+    <string name="header_diagnosis_cost_estimate">2. Diagnosis &amp; Cost Estimate</string>
+    <string name="hint_technician_findings">Technician Findings &amp; Fault Diagnosis</string>
+    <string name="hint_parts_cost">Parts Cost (₱)</string>
+    <string name="hint_labor_cost">Labor Cost (₱)</string>
+    <string name="hint_additional_cost">Other (₱)</string>
+    <string name="label_estimated_total">Estimated Total: ₱0.00</string>
+    <string name="btn_save_diagnosis">Save Diagnosis &amp; Estimate</string>
+    <string name="header_customer_response">3. Staff Record of Customer Response</string>
+    <string name="btn_record_approval">✓ Record Approval</string>
+    <string name="btn_record_rejection">✗ Record Rejection</string>
+    <string name="header_smart_timeline">4. Smart Repair Tracking Timeline</string>
+    <string name="btn_progress_status">Progress Repair Status</string>
+    <string name="btn_cancel_job">Cancel Repair Job&#8230;</string>
+    <string name="header_audit_history">Persistent Status Change Audit History</string>
+    <string name="header_testing_checklist">5. Final Testing Verification Checklist</string>
+    <string name="subtitle_testing_checklist">All applicable tests must pass before completion.</string>
+    <string name="btn_save_testing_results">Save Final Testing Results</string>
+    <string name="header_payment_collection">6. Payment &amp; Device Collection</string>
+    <string name="btn_record_payment">💳 Record Payment</string>
+    <string name="btn_release_device">📦 Release Device</string>
+    <string name="header_digital_warranty">7. Digital Warranty &amp; Claims</string>
+    <string name="hint_warranty_duration">Warranty Duration</string>
+    <string name="hint_warranty_terms">Warranty Terms &amp; Coverage (₱)</string>
+    <string name="btn_save_warranty_terms">Save Warranty Terms</string>
+    <string name="btn_file_warranty_claim">🛡 File Warranty Claim</string>
+    <string name="header_pdf_report">Service Report &amp; Digital Warranty PDF</string>
+    <string name="btn_view_pdf">👁 View PDF Service Report</string>
+    <string name="btn_download_pdf">⬇ Download PDF</string>
+    <string name="btn_share_pdf">📤 Share PDF</string>
+    <string name="btn_finish_session">✓ Finish &amp; Return to Dashboard</string>
+
+    <!-- Analytics -->
+    <string name="title_analytics">Reports &amp; Operational Analytics</string>
+    <string name="subtitle_analytics">Financial and shop performance metrics calculated from saved records</string>
+    <string name="header_financial_summary">Financial Revenue &amp; Outstanding Balances</string>
+    <string name="label_repair_revenue">Repair Revenue</string>
+    <string name="label_customer_tips">Customer Tips</string>
+    <string name="label_unpaid_balances">Outstanding Unpaid Balances</string>
+    <string name="label_avg_turnaround">Avg Turnaround Time</string>
+    <string name="label_total_warranty_claims">Total Warranty Claims</string>
+    <string name="header_frequent_problems">Frequently Reported Device Problems</string>
+    <string name="subtitle_frequent_problems">Most common issues registered by customers</string>
+    <string name="empty_problems_msg">No repair problem data recorded yet.</string>
+
+    <!-- Accessibility Descriptions -->
+    <string name="desc_back_button">Navigate back</string>
+    <string name="desc_photo_preview">Condition photo preview</string>
+</resources>

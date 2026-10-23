@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.fixflow.ui.dashboard.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_jobs"
+        android:name="com.example.fixflow.ui.jobs.RepairJobListFragment"
+        android:label="Repair Jobs"
+        tools:layout="@layout/fragment_repair_job_list">
+        <argument
+            android:name="filterStatus"
+            app:argType="string"
+            android:defaultValue="All" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_new_job"
+        android:name="com.example.fixflow.ui.newjob.NewRepairJobFragment"
+        android:label="New Repair Job"
+        tools:layout="@layout/fragment_new_repair_job" />
+
+    <fragment
+        android:id="@+id/nav_analytics"
+        android:name="com.example.fixflow.ui.analytics.AnalyticsFragment"
+        android:label="Analytics"
+        tools:layout="@layout/fragment_analytics" />
+
+    <fragment
+        android:id="@+id/nav_repair_detail"
+        android:name="com.example.fixflow.ui.detail.RepairDetailFragment"
+        android:label="Repair Record Details"
+        tools:layout="@layout/fragment_repair_detail">
+        <argument
+            android:name="jobId"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
